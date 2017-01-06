@@ -17,6 +17,12 @@ linux*)
 esac
 
 
+##hokan
+autoload -Uz compinit
+compinit
+
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 
 #prompt
 PROMPT='[%n@%m %K{green}%~%k]'
