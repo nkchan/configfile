@@ -1,0 +1,27 @@
+\documentclass[a4paper,11pt]{report} %ポイントサイズ、種類選択
+\usepackage{multicol} %部分的に2段組みにするパッケージ
+
+% 高さの設定
+\setlength{\textheight}{\paperheight}   %紙面を本文領域に
+\setlength{\topmargin}{-5.4truemm}      %上の余白を20mm(=1inch-5.4mm)に
+\addtolength{\topmargin}{-\headheight}   
+\addtolength{\topmargin}{-\headsep}     %ヘッダの分だけ本文領域を移動させる
+\addtolength{\textheight}{-40truemm}    %下の余白も20mmに
+% 幅の設定
+\setlength{\textwidth}{\paperwidth}     %紙面を本文領域に
+\setlength{\oddsidemargin}{-5.4truemm}  %左の余白を20mm(=1inch-5.4mm)に
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     %右の余白も20mmに
+
+\setlength{\columnsep}{2zw}  %段間にあける幅 
+
+\begin{document}
+	\begin{titlepage}	
+	
+		\title{title}
+		\author{ Kaoru Nagashima}
+		\date{data} %日付変更
+		\maketitle
+	\end{titlepage}
+	
+\end{document}
