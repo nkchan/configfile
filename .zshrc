@@ -40,3 +40,6 @@ setopt magic_equal_subst
 
 export EDITOR=vim
 export LANG=ja_JP.UTF-8
+
+##alias
+alias python='python3.5'
