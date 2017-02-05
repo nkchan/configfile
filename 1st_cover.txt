@@ -1,7 +1,9 @@
 \documentclass[a4paper,11pt]{report} %ポイントサイズ、種類選択
 \usepackage{multicol} %部分的に2段組みにするパッケージ
 \usepackage[dvipdfmx]{graphics} %グラフィック周り
+%\usepackage[dvipdfmx]{graphicx.color} %windowsの方はこっち
 \usepackage{tikz} %描画用
+\usepackage{listings} %ソースコード載せるもの
 
 % 高さの設定
 \setlength{\textheight}{\paperheight}   %紙面を本文領域に
