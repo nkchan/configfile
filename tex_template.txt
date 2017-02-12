@@ -1,7 +1,12 @@
-\documentclass[a4paper,11pt]{jarticle} %ポイントサイズ、種類選択
+\documentclass[a4paper,11pt]{report} %ポイントサイズ、種類選択
 \usepackage{multicol} %部分的に2段組みにするパッケージ
-\usepackage{listings}
-% 高さの設
+\usepackage[dvipdfmx]{graphics} %グラフィック周り
+%\usepackage[dvipdfmx]{graphicx.color} %windowsの方はこっち
+\usepackage{tikz} %描画用
+\usepackage{listings} %ソースコード載せるもの
+\usepackage{arydshln} % 破線を入れる
+
+% 高さの設定
 \setlength{\textheight}{\paperheight}   %紙面を本文領域に
 \setlength{\topmargin}{-5.4truemm}      %上の余白を20mm(=1inch-5.4mm)に
 \addtolength{\topmargin}{-\headheight}   
@@ -16,9 +21,12 @@
 \setlength{\columnsep}{2zw}  %段間にあける幅 
 
 \begin{document}
-	\title{title}
-	\author{ Kaoru Nagashima}
-	\date{data} %日付変更
-	\maketitle
+	\begin{titlepage}	
 	
+		\title{title}
+		\author{ Kaoru Nagashima}
+		\date{data} %日付変更
+		\maketitle
+	\end{titlepage}
+%タイトルページを除きたいときは titlepage関連を消す	
 \end{document}
