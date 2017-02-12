@@ -4,6 +4,7 @@
 %\usepackage[dvipdfmx]{graphicx.color} %windowsの方はこっち
 \usepackage{tikz} %描画用
 \usepackage{listings} %ソースコード載せるもの
+\usepackage{arydshln} % 破線を入れる
 
 % 高さの設定
 \setlength{\textheight}{\paperheight}   %紙面を本文領域に
