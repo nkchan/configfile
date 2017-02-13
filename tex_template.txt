@@ -5,6 +5,8 @@
 \usepackage{tikz} %描画用
 \usepackage{listings} %ソースコード載せるもの
 \usepackage{arydshln} % 破線を入れる
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}  
 
 % 高さの設定
 \setlength{\textheight}{\paperheight}   %紙面を本文領域に
