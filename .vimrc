@@ -16,3 +16,5 @@ set showmatch "カッコの対応
 set hlsearch "検索結果ハイライト
 
 syntax on "シンタックスハイライト
+
+
