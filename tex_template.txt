@@ -31,4 +31,23 @@
 		\maketitle
 	\end{titlepage}
 %タイトルページを除きたいときは titlepage関連を消す	
+
+\part*{目的}
+
+\part*{原理}
+
+\part*{実験方法}
+
+\part*{実験結果}
+
+\part*{考察}
+
+\begin{thebibliography}{数字}
+  \bibitem{キー1} 参考文献の名前・著者1
+  \bibitem{キー2} 参考文献の名前・著者2
+  ・・・
+  \bibitem{キーN} 参考文献の名前・著者N
+\end{thebibliography}
+
+
 \end{document}
