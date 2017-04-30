@@ -59,6 +59,9 @@
   ・・・
   \bibitem{キーN} 参考文献の名前・著者N
 \end{thebibliography}
+%参照するときは \cite{key}
+
+
 
 
 \end{document}
