@@ -5,6 +5,7 @@
 \usepackage{listings} %ソースコード載せるもの
 \usepackage{arydshln} % 破線を入れる
 \usepackage{amsmath} 
+\usepackage{ascmac} %screemで枠表示
 \usepackage{tikz} %描画用
 \renewcommand{\figurename}{図}
 \renewcommand{\tablename}{表}  
