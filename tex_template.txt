@@ -1,3 +1,4 @@
+\documentclass[a4paper,11pt]{jarticle} %ポイントサイズ、種類選択
 \usepackage{multicol} %部分的に2段組みにするパッケージ
 \usepackage[dvipdfmx]{graphics} %mac グラフィック周り
 %\usepackage[dvipdfmx]{graphicx.color} %windowsの方はこっち
