@@ -1,0 +1,38 @@
+\usepackage{multicol} %部分的に2段組みにするパッケージ
+\usepackage[dvipdfmx]{graphics} %mac グラフィック周り
+%\usepackage[dvipdfmx]{graphicx.color} %windowsの方はこっち
+\usepackage{tikz} %描画用
+\usepackage{listings} %ソースコード載せるもの
+\usepackage{arydshln} % 破線を入れる
+\usepackage{amsmath} 
+\usepackage{ascmac} %screemで枠表示
+\usepackage{tikz} %描画用
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}  
+\newcommand{\hmbar}{h \kern -0.5em\raise 0.5ex \hbox{--}}%hバー
+\newcommand{\lbar}{\lambda \kern -0.5em\raise 0.5ex \hbox{--}} %ラムダバー
+\usetikzlibrary{automata}
+
+
+%答え場合分け
+%equationの中で
+%\begin{cases}
+%hoge \\
+%fuga
+%\end{cases}
+%
+%
+
+% 高さの設定
+\setlength{\textheight}{\paperheight}   %紙面を本文領域に
+\setlength{\topmargin}{-5.4truemm}      %上の余白を20mm(=1inch-5.4mm)に
+\addtolength{\topmargin}{-\headheight}   
+\addtolength{\topmargin}{-\headsep}     %ヘッダの分だけ本文領域を移動させる
+\addtolength{\textheight}{-40truemm}    %下の余白も20mmに
+% 幅の設定
+\setlength{\textwidth}{\paperwidth}     %紙面を本文領域に
+\setlength{\oddsidemargin}{-5.4truemm}  %左の余白を20mm(=1inch-5.4mm)に
+\setlength{\evensidemargin}{-5.4truemm} % 
+\addtolength{\textwidth}{-40truemm}     %右の余白も20mmに
+
+\setlength{\columnsep}{2zw}  %段間にあける幅 
