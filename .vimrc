@@ -1,13 +1,12 @@
 set title "タイトルを追記 
 set ruler "カーソルの行数
 
-set ambiwidth=double
-set tabstop=2
-set expandtab
-set shiftwidth=2 "タブ回り
-
- 
-set smartindent "インデント
+setlocal smarttab
+setlocal expandtab
+setlocal tabstop=4
+setlocal shiftwidth=4
+setlocal foldmethod=indent
+setlocal commentstring=#%s
 
 set paste "貼り付け
 
